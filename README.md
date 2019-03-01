@@ -69,9 +69,12 @@ In any of the two cases, if the cities are valid it would return a json with the
 The app is divided in 3 files. 
  - Server.js has the server logic. 
  - tempApi.js has the api logic part. 
- - toolbox.js has the functions that we need to perfom operations, it has the compareTemps and the response handler. 
-The response handler is not divided into another file because at this time of the project is it very small but if the project gets bigger the recommendation is to give him his own space in another module.
-By separating the api logic from the tools or the server we can make the app more scalable. We could change the api that we use to get the data and if the return value is still a number the rest of the logic will continue to work good.
+ - toolbox.js has the functions that we need to perfom operations, it has the compareTemps and the response handler.   
+   
+The response handler is not divided into another file because at this time of the project is it very small but if the project gets bigger the recommendation is to give him his own space in another module.  
+  
+By separating the api logic from the tools or the server we can make the app more scalable. We could change the api that we use to get the data and if the return value is still a number the rest of the logic will continue to work good.  
+  
 The app follows the Single Responsibility Principle
 
 ## Timing
